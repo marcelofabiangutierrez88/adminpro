@@ -21,11 +21,13 @@ import { RegisterComponent } from './login/register.component';
 
 
 
+
 @NgModule({
   declarations: [
     RegisterComponent,
     AppComponent,
     LoginComponent
+
     
   ],
   imports: [
@@ -34,7 +36,7 @@ import { RegisterComponent } from './login/register.component';
     PagesModule,
     FormsModule,
     ReactiveFormsModule,
-    ServiceModule
+    ServiceModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
