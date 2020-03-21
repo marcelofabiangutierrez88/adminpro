@@ -26,7 +26,8 @@ import { RegisterComponent } from './login/register.component';
   declarations: [
     RegisterComponent,
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    
 
     
   ],
